@@ -1,0 +1,19 @@
+remote_theme: just-the-docs/just-the-docs
+
+title: BatchFile Organiser
+description: Documentation for BatchFile Organiser — organise folders by type or date, remove exact duplicates, preview changes, and undo safely.
+
+color_scheme: light
+
+nav_sort: order
+
+logo: "/assets/images/logo.png"
+
+aux_links:
+  "Get on Microsoft Store": "https://apps.microsoft.com/detail/9PB3Q7K9FVZQ"
+
+aux_links_new_tab: true
+
+footer_content: >
+  &copy; 2026 <a href="https://3thousand30.com">3thousand30</a> &mdash;
+  <a href="https://github.com/3thousand30/batchfileorganiser-docs/issues">Support</a>
