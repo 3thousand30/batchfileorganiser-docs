@@ -22,7 +22,7 @@ Pick a folder. Scan it. Choose how to organise it. Preview everything. Apply saf
 4. **Preview** — review every planned move and duplicate removal before anything changes on disk
 5. **Apply and undo if needed** — run the operation with progress feedback, then undo the last run with one click
 
-Everything runs locally on your machine. No internet connection is required to organise your files.
+File organisation and duplicate detection happen locally on your machine. The app may request the Inter UI font from Google Fonts for display consistency when an internet connection is available.
 
 ---
 
