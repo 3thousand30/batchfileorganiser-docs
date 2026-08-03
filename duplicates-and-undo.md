@@ -54,6 +54,14 @@ This is important because it means the app can restore them during undo.
 
 ---
 
+## Empty subfolder cleanup
+
+**Remove empty subfolders after organising** is a separate option from duplicate handling. When enabled, the app checks the folders affected by the current file operations after those operations complete.
+
+The Preview step lists the exact subfolders expected to be removed. Pre-existing empty folders are not eligible, folders that still contain files are kept, and the selected root folder is never removed. Files are never deleted by this cleanup option.
+
+---
+
 ## How undo works
 
 After a completed run, the summary screen offers **Undo**.

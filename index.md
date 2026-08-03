@@ -6,7 +6,7 @@ nav_order: 1
 
 # BatchFile Organiser
 
-**BatchFile Organiser** is a Windows desktop app by [3thousand30](https://3thousand30.com) that helps you clean up messy folders by sorting files into structured folders, reviewing exact duplicates, previewing every change, and undoing the last operation if needed.
+**BatchFile Organiser** is a Windows desktop app by [3thousand30](https://3thousand30.com) that helps you clean up messy folders by sorting files into structured folders, optionally scanning subfolders, reviewing exact duplicates, previewing every change, and undoing the last operation if needed.
 
 Pick a folder. Scan it. Choose how to organise it. Preview everything. Apply safely.
 
@@ -17,9 +17,9 @@ Pick a folder. Scan it. Choose how to organise it. Preview everything. Apply saf
 ## How it works
 
 1. **Select a folder** — use **Browse** or quick links for Desktop, Downloads, Documents, Pictures, and Videos
-2. **Scan** — the app reads the top-level files, shows category totals, and finds exact duplicate groups
+2. **Scan** — the app reads top-level files by default; enable **Include files in subfolders** to scan recursively, then review category totals and exact duplicate groups
 3. **Choose your setup** — organise by Type, Year / Type, Year / Month, or Year / Month / Type, and decide which duplicate copies to keep
-4. **Preview** — review every planned move and duplicate removal before anything changes on disk
+4. **Preview** — review every planned move, duplicate removal, and empty subfolder that this run is expected to remove
 5. **Apply and undo if needed** — run the operation with progress feedback, then undo the last run with one click
 
 File organisation and duplicate detection happen locally on your machine. The app may request the Inter UI font from Google Fonts for display consistency when an internet connection is available.
@@ -29,10 +29,12 @@ File organisation and duplicate detection happen locally on your machine. The ap
 ## Key features
 
 - **Four organise modes** — Type, Year / Type, Year / Month, and Year / Month / Type
+- **Optional recursive scanning** — include files from every accessible subfolder below the selected folder
 - **Exact duplicate detection** — finds files with identical content using SHA-256 hashing
 - **Duplicate keep presets** — Keep Newest, Keep Oldest, Keep Largest, or Keep Smallest
 - **Per-group duplicate override** — manually choose which file to keep for any duplicate group
 - **Full preview before apply** — see where every file will go before changes are made
+- **Safe empty-folder cleanup** — remove only subfolders emptied by the current run, with the exact list shown in Preview
 - **Undo last operation** — restore moved files and duplicates that were moved aside during apply
 - **Protected folder blocking** — refuses risky Windows system locations that should not be reorganised
 - **Quick start shortcuts** — Desktop, Downloads, Documents, Pictures, and Videos

@@ -20,6 +20,21 @@ Example date:
 
 ---
 
+## Files in subfolders
+
+The Scan screen checks top-level files by default. Enable **Include files in subfolders** to scan every accessible file below the selected folder.
+
+Nested files are placed into the destination folders under the selected folder; their original folder nesting is not preserved. For example, with `Downloads` selected and **Type** mode enabled:
+
+```text
+Downloads/X/Image/photo.png  →  Downloads/Images/photo.png
+Downloads/X/notes.txt        →  Downloads/Documents/notes.txt
+```
+
+The selected folder remains the root of the organisation. If you also enable **Remove empty subfolders after organising**, a source folder is removed only when this run moved or removed its files and it is empty afterward.
+
+---
+
 ## Type
 
 Groups files only by category.

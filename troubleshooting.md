@@ -27,9 +27,24 @@ Choose a normal working folder instead, such as Downloads, Desktop, Documents, P
 
 ## The scan found fewer files than I expected
 
-The app scans **top-level files only**.
+The app scans **top-level files only by default**.
 
-If your files are inside subfolders, they will not appear in the scan list or be moved by the organiser. Open the specific subfolder you want to clean up, then scan that folder directly.
+If your files are inside subfolders, enable **Include files in subfolders** before scanning. The nested files will then appear in the scan and be organised under the selected folder according to the chosen mode.
+
+---
+
+## An empty folder was not removed
+
+This is usually intentional. Cleanup removes only subfolders that contained files affected by the current run and are empty after the file changes finish.
+
+An empty folder is kept when:
+
+- It was already empty before the run
+- It still contains a file or another non-empty folder
+- The cleanup checkbox was not enabled
+- A file operation failed or was cancelled
+
+The selected root folder is never removed.
 
 ---
 

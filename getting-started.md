@@ -41,7 +41,9 @@ The scan shows:
 - Category breakdowns such as Images, Documents, Videos, Audio, Archives, Code, and Other
 - Exact duplicate groups and recoverable space
 
-**Important:** the app scans **top-level files only**. Files inside subfolders are not reorganised, although existing nested files are still considered when previewing destination conflicts.
+By default, the app scans **top-level files only**. Enable **Include files in subfolders** when you want every accessible file below the selected folder included in the scan.
+
+When recursive scanning is enabled, files are organised into destinations under the selected folder according to the mode you choose. For example, if you select `Downloads` and it contains `X\Image\photo.png` and `X\notes.txt`, **Type** mode moves them to `Downloads\Images\photo.png` and `Downloads\Documents\notes.txt`.
 
 ---
 
@@ -67,6 +69,7 @@ Before anything changes, BatchFile Organiser shows a full preview of:
 - Which files will move
 - Where each file will go
 - Which duplicate copies will be removed
+- Which empty subfolders will be removed, when cleanup is enabled
 - How much space will be recovered
 
 Use this step to sanity-check the result before applying changes.
@@ -82,6 +85,8 @@ While running:
 - A progress indicator shows overall status
 - The app reports moves and duplicate removals
 - Partial failures are called out instead of being shown as a full success
+
+If **Remove empty subfolders after organising** is enabled, cleanup runs after the file changes complete. Only subfolders that contained files affected by this run and are empty afterward are eligible. The selected folder itself is never removed.
 
 When complete, you can review the summary and, if needed, undo the last operation.
 
@@ -105,4 +110,5 @@ Undo applies only to the most recent completed run.
 - Start with a copy of a test folder the first time you use the app
 - Close other programs that may be using files in the folder while applying changes
 - Review duplicate groups carefully before removing extra copies
+- Leave empty-folder cleanup disabled if you use empty folders as placeholders
 - Re-run the scan after manual file changes so the preview stays accurate
