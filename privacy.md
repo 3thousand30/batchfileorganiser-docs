@@ -8,7 +8,7 @@ nav_order: 6
 
 **Last updated: April 2026**
 
-BatchFile Organiser is developed by [3thousand30](https://3thousand30.com).
+Batch File Organiser is developed by [3thousand30](https://3thousand30.com).
 
 ---
 
@@ -25,7 +25,7 @@ BatchFile Organiser is developed by [3thousand30](https://3thousand30.com).
 
 ## What may leave your device
 
-BatchFile Organiser performs file organisation, duplicate detection, preview generation, and undo handling locally on your Windows device.
+Batch File Organiser performs file organisation, duplicate detection, preview generation, and undo handling locally on your Windows device.
 
 The app may also request the **Inter** user-interface font from **Google Fonts** so the app looks consistent across devices. That font request is made directly from your device to Google's servers and may include standard network information such as your IP address and browser or app request metadata, subject to Google's own privacy practices.
 

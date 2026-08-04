@@ -6,7 +6,7 @@ nav_order: 3
 
 # Organise Modes
 
-BatchFile Organiser supports four folder structures. This page shows what each one does and when to use it.
+Batch File Organiser supports four folder structures. This page shows what each one does and when to use it.
 
 ---
 

@@ -6,7 +6,7 @@ nav_order: 4
 
 # Duplicates and Undo
 
-BatchFile Organiser can identify exact duplicate files and help you keep only the copy you want.
+Batch File Organiser can identify exact duplicate files and help you keep only the copy you want.
 
 ---
 

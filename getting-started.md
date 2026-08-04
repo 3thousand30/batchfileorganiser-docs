@@ -6,13 +6,13 @@ nav_order: 2
 
 # Getting Started
 
-This guide walks you through organising your first folder with BatchFile Organiser.
+This guide walks you through organising your first folder with Batch File Organiser.
 
 ---
 
 ## 1. Install the app
 
-Download and install **BatchFile Organiser** from the Microsoft Store. Once installed, launch it from the Start menu.
+Download and install **Batch File Organiser** from the Microsoft Store. Once installed, launch it from the Start menu.
 
 ---
 
@@ -64,7 +64,7 @@ If duplicates were found, you can also choose a keep preset such as **Keep Newes
 
 ## 5. Preview everything first
 
-Before anything changes, BatchFile Organiser shows a full preview of:
+Before anything changes, Batch File Organiser shows a full preview of:
 
 - Which files will move
 - Where each file will go

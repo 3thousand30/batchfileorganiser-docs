@@ -4,9 +4,9 @@ title: Home
 nav_order: 1
 ---
 
-# BatchFile Organiser
+# Batch File Organiser
 
-**BatchFile Organiser** is a Windows desktop app by [3thousand30](https://3thousand30.com) that helps you clean up messy folders by sorting files into structured folders, optionally scanning subfolders, reviewing exact duplicates, previewing every change, and undoing the last operation if needed.
+**Batch File Organiser** is a Windows desktop app by [3thousand30](https://3thousand30.com) that helps you clean up messy folders by sorting files into structured folders, optionally scanning subfolders, reviewing exact duplicates, previewing every change, and undoing the last operation if needed.
 
 Pick a folder. Scan it. Choose how to organise it. Preview everything. Apply safely.
 

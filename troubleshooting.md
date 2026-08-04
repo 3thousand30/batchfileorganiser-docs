@@ -10,7 +10,7 @@ nav_order: 5
 
 ## "This folder is protected"
 
-BatchFile Organiser intentionally blocks risky Windows locations such as:
+Batch File Organiser intentionally blocks risky Windows locations such as:
 
 - `C:\`
 - `Windows`
